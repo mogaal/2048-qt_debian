@@ -1,0 +1,5 @@
+2048-qt (0.1.4-1) unstable; urgency=low
+
+  * Initial release (Closes: #123456)
+
+ -- Alejandro Garrido Mota <alejandro@debian.org>  Mon, 28 Apr 2014 22:17:37 -0430

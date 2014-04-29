@@ -1,0 +1,17 @@
+Description: Set target.path to /usr/games
+Author: Alejandro Garrido Mota <alejandro@debian.org>
+Origin: vendor
+
+Set path to be compatible with Debian
+
+--- a/deployment.pri
++++ b/deployment.pri
+@@ -14,7 +14,7 @@
+     INSTALLS += target
+ } else:unix {
+     isEmpty(target.path) {
+-        target.path = /opt/$${TARGET}/bin
++        target.path = /usr/games
+         export(target.path)
+     }
+     INSTALLS += target
