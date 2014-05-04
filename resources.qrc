@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ts/2048-qt_zh_CN.qm</file>
+        <file>qml/main.qml</file>
+        <file>qml/2048.js</file>
+        <file>qml/Tile.qml</file>
+        <file>fonts/DroidSansFallback.ttf</file>
+    </qresource>
+</RCC>
