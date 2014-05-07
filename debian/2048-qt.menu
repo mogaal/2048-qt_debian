@@ -1,2 +1,4 @@
 ?package(2048-qt):needs="X11" section="Games/Puzzles" \
-  title="2048-qt" command="/usr/games/2048-qt"
+  title="2048-qt" command="/usr/games/2048-qt" \
+  icon="/usr/share/pixmaps/2048-qt.xpm" \
+  longtitle="2048-qt: mathematics based puzzle game"
