@@ -17,7 +17,8 @@ Depends: ${shlibs:Depends},
          qml-module-qtquick-controls,
          qml-module-qtquick-dialogs
 Description: mathematics based puzzle game 
- 2048 puzzle is mathematics based puzzle game where you have to merge
- the similar number tiles (2n) by moving the arrow keys in four 
- different directions. When two tiles with the same number touch, 
- they will merge into one
+ 2048 puzzle is mathematics based puzzle game where you have to slide
+ tiles on a grid to combine them and create a tile with the number 2048.
+ You have to merge the similar number tiles (2n) by moving the arrow keys
+ in four different directions. When two tiles with the same number touch,
+ they will merge into one.
