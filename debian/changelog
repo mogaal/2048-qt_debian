@@ -1,3 +1,9 @@
+2048-qt (0.1.4-2) unstable; urgency=medium
+
+  * Include XMP icon app and install it.
+
+ -- Alejandro Garrido Mota <alejandro@debian.org>  Wed, 07 May 2014 19:43:18 -0430
+
 2048-qt (0.1.4-1) unstable; urgency=low
 
   * Initial release (Closes: #747327)
