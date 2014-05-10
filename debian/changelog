@@ -1,3 +1,9 @@
+2048-qt (0.1.4-3) unstable; urgency=medium
+
+  * Add font/DroidSansFallback.ttf's copyright and licence in d/copyright.
+
+ -- Alejandro Garrido Mota <alejandro@debian.org>  Sat, 10 May 2014 07:42:23 -0430
+
 2048-qt (0.1.4-2) unstable; urgency=medium
 
   * Include XMP app icon and install it.
