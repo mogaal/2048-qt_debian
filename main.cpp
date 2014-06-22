@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
     Settings settings(0, "xiaoyong", "2048-Qt");
-    settings.setVersion(QString(VER));
+    settings.setVersion(QString(APP_VERSION));
 
     // Localization
     QString locale;
@@ -20,15 +20,18 @@ int main(int argc, char *argv[])
         locale = QLocale::system().name();
         settings.setValue("language", locale);
     }
-    QString tsFile = "2048-qt_" + locale;
 
     QTranslator translator;
-    if (translator.load(tsFile, ":/ts")) {
-        qDebug() << "Successfully loaded " + tsFile;
-    } else {
-        qDebug() << "Failed to load " + tsFile;
+    if (! locale.startsWith("en")) {
+        QString tsFile = "2048-qt_" + locale;
+
+        if (translator.load(tsFile, ":/ts")) {
+            qDebug() << "Successfully loaded " + tsFile;
+            app.installTranslator(&translator);
+        } else {
+            qDebug() << "Failed to load " + tsFile;
+        }
     }
-    app.installTranslator(&translator);
 
     QQmlApplicationEngine engine;
 

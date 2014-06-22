@@ -13,6 +13,7 @@ A clone of [2048](https://github.com/gabrielecirulli/2048), implemented in Qt.
   - PRC (天朝)
 - Multi-language support, currently
   - English
+  - Russian (by [Sergey Basalaev](https://github.com/SBasalaev))
   - Simplified Chinese
 
 ## Screenshots
@@ -43,6 +44,21 @@ yaourt 2048-qt
 ```
 And please vote it if you like it.
 
+### Debian
+
+[Alejandro Garrido Mota](https://github.com/mogaal) has packaged it for Debian. On Debian unstable, install it through:
+```
+sudo apt-get install 2048-qt
+```
+
+### Ubuntu
+
+From Ubuntu 14.10 on, install it through:
+```
+sudo apt-get install 2048-qt
+```
+
 ## Todo
 
+- Allow the user to add his own label systems
 - AI support
