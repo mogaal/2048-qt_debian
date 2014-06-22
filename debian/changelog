@@ -1,3 +1,9 @@
+2048-qt (0.1.5-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Alejandro Garrido Mota <alejandro@debian.org>  Sun, 22 Jun 2014 18:52:31 -0430
+
 2048-qt (0.1.4-3) unstable; urgency=medium
 
   * Add font/DroidSansFallback.ttf's copyright and licence in d/copyright.
