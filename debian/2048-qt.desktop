@@ -9,3 +9,4 @@ Icon=/usr/share/pixmaps/2048-qt.xpm
 Terminal=false
 StartupNotify=true
 Keywords=game;puzzle
+Categories=Game;LogicGame
