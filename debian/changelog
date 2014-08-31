@@ -1,3 +1,9 @@
+2048-qt (0.1.5-2) unstable; urgency=medium
+
+  * Add freedesktop menu (d/2048-qt.desktop) (Closes: #759137)
+
+ -- Alejandro Garrido Mota <alejandro@debian.org>  Sat, 30 Aug 2014 20:48:35 -0430
+
 2048-qt (0.1.5-1) unstable; urgency=medium
 
   * New upstream release.
