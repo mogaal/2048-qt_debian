@@ -3,9 +3,9 @@ Section: games
 Priority: optional
 Maintainer: Alejandro Garrido Mota <alejandro@debian.org>
 Build-Depends: debhelper (>= 9), 
-               qt5-default,
+               qtbase5-dev,
                qtdeclarative5-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://github.com/xiaoyong/2048-Qt
 Vcs-Git: git://github.com/mogaal/2048-qt.git
 Vcs-Browser: https://github.com/mogaal/2048-qt

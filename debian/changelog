@@ -1,3 +1,14 @@
+2048-qt (0.1.5-3) unstable; urgency=medium
+
+  * d/control: 
+      - replace qt5-default metapackage to qtbase5-dev in BDI.
+      - Push Standards-Version field.
+  * Set user dir configuration to from ~/.config/xiaoyong/ to 
+    /.config/2048-qt/ (Closes: #767151).
+  * d/rules: export QT_SELECT=qt5 variable to set QT version.
+
+ -- Alejandro Garrido Mota <alejandro@debian.org>  Sat, 24 Jan 2015 19:33:11 -0430
+
 2048-qt (0.1.5-2) unstable; urgency=medium
 
   * Add freedesktop menu (d/2048-qt.desktop) (Closes: #759137)

@@ -1,0 +1,18 @@
+Description: Set user configuration dir to ~/.config/2048-qt/
+Author: Alejandro Garrido Mota <alejandro@debian.org>
+Origin: vendor
+
+Set the user configuration dir to ~/.config/2048-qt/
+
+
+--- a/main.cpp
++++ b/main.cpp
+@@ -9,7 +9,7 @@
+ int main(int argc, char *argv[])
+ {
+     QApplication app(argc, argv);
+-    Settings settings(0, "xiaoyong", "2048-Qt");
++    Settings settings(0, "2048-qt", "2048-Qt");
+     settings.setVersion(QString(APP_VERSION));
+ 
+     // Localization
