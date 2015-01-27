@@ -1,4 +1,4 @@
-2048-qt (0.1.5-3) unstable; urgency=medium
+2048-qt (0.1.5-3) experimental; urgency=medium
 
   * d/control: 
       - replace qt5-default metapackage to qtbase5-dev in BDI.
