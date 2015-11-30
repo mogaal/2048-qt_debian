@@ -13,6 +13,9 @@ A clone of [2048](https://github.com/gabrielecirulli/2048), implemented in Qt.
   - PRC (天朝)
 - Multi-language support, currently
   - English
+  - French (by [Rémi Verschelde](https://github.com/akien-mga))
+  - German (by [Jens John](https://github.com/2ion))
+  - Polish (by [Michał Radwański](https://github.com/enedil))
   - Russian (by [Sergey Basalaev](https://github.com/SBasalaev))
   - Simplified Chinese
 
@@ -49,6 +52,13 @@ And please vote it if you like it.
 [Alejandro Garrido Mota](https://github.com/mogaal) has packaged it for Debian. On Debian unstable, install it through:
 ```
 sudo apt-get install 2048-qt
+```
+
+### Gentoo
+2048-Qt is available from the overlay maintained by [Jorge Pizarro Callejas](https://github.com/jorgicio):
+```
+layman -a jorgicio
+emerge 2048-qt
 ```
 
 ### Ubuntu
