@@ -102,6 +102,18 @@ ApplicationWindow {
                     }
                 }
                 MenuItem {
+                    text: "Français"
+                    checkable: true
+                    exclusiveGroup: languageSettingsGroup
+                    checked: settings.value("language") === "fr_FR" ? true : false
+                    onTriggered: {
+                        if (settings.value("language") !== "fr_FR") {
+                            settings.setValue("language", "fr_FR");
+                            changeLanguageDialog.open();
+                        }
+                    }
+                }
+                MenuItem {
                     text: "简体中文"
                     checkable: true
                     exclusiveGroup: languageSettingsGroup
@@ -114,6 +126,19 @@ ApplicationWindow {
                     }
                 }
                 MenuItem {
+                    text: "Polski"
+                    checkable: true
+                    exclusiveGroup: languageSettingsGroup
+                    checked: settings.value("language") === "pl_PL" ? true : false
+                    onTriggered: {
+                        if (settings.value("language") !== "pl_PL") {
+                            settings.setValue("language", "pl_PL");
+                            changeLanguageDialog.open();
+                        }
+                    }
+                }
+
+                MenuItem {
                     text: "Русский"
                     checkable: true
                     exclusiveGroup: languageSettingsGroup
@@ -121,6 +146,18 @@ ApplicationWindow {
                     onTriggered: {
                         if (settings.value("language") !== "ru_RU") {
                             settings.setValue("language", "ru_RU");
+                            changeLanguageDialog.open();
+                        }
+                    }
+                }
+                MenuItem {
+                    text: "German"
+                    checkable: true
+                    exclusiveGroup: languageSettingsGroup
+                    checked: settings.value("language") == "de_DE" ?  true : false
+                    onTriggered: {
+                        if (settings.value("language") != "de_DE") {
+                            settings.setValue("language", "de_DE");
                             changeLanguageDialog.open();
                         }
                     }
@@ -170,7 +207,7 @@ ApplicationWindow {
             onClicked: parent.forceActiveFocus()
         }
 
-        FontLoader { id: localFont; source: "qrc:///fonts/DroidSansFallback.ttf" }
+        FontLoader { id: localFont; source: "qrc:///res/fonts/DroidSansFallback.ttf" }
 
         Text {
             id: gameName
@@ -319,7 +356,7 @@ ApplicationWindow {
         MessageDialog {
             id: aboutDialog
             title: qsTr("About 2048-Qt")
-            text: qsTr("<p style='font-weight: bold; font-size: 24px'>2048-Qt</p><p>Version " + settings.getVersion() + "</p><p>2014 Qiaoyong Zhong &lt;solary.sh@gmail.com&gt;</p>")
+            text: qsTr("<p style='font-weight: bold; font-size: 24px'>2048-Qt</p><p>Version " + settings.getVersion() + "</p><p>2015 Qiaoyong Zhong &lt;solary.sh@gmail.com&gt;</p>")
             standardButtons: StandardButton.Ok
         }
 
