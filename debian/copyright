@@ -3,7 +3,7 @@ Upstream-Name: 2048-qt
 Source: https://github.com/xiaoyong/2048-Qt
 
 Files: *
-Copyright: 2014 Qiaoyong Zhong <solary.sh@gmail.com>
+Copyright: 2014-2015 Qiaoyong Zhong <solary.sh@gmail.com>
 License: MIT
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
@@ -23,7 +23,7 @@ License: MIT
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
 
-Files: fonts/DroidSansFallback.ttf
+Files: res/fonts/DroidSansFallback.ttf
 Copyright: 2005-2012, The Android Open Source Project
 License: Apache-2.0
  Licensed under the Apache License, Version 2.0 (the "License"); you may
@@ -39,7 +39,7 @@ License: Apache-2.0
  '/usr/share/common-licenses/Apache-2.0'.
 
 Files: debian/*
-Copyright: 2014 Alejandro Garrido Mota <alejandro@debian.org>
+Copyright: 2014-2015 Alejandro Garrido Mota <alejandro@debian.org>
 License: GPL-3+
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

@@ -1,3 +1,15 @@
+2048-qt (0.1.6-1) unstable; urgency=medium
+
+  * New upstream release to unstable. (Closes: #781689)
+  * d/copyright: Update copyright dates and fonts path. 
+  * Remove d/patches/FixConfigDir.diff, fixed in the new upstrea release.
+  * Manpage fixed in the last release. (Closes: #781690)
+  * d/2048-qt.manpages: Update manpage path.
+  * Remove d/2048-qt.desktop, now using upstream desktop file.
+  * Include patch to 2048-qt.desktop file to include keyword
+
+ -- Alejandro Garrido Mota <alejandro@debian.org>  Mon, 30 Nov 2015 00:49:10 +0000
+
 2048-qt (0.1.5-3) experimental; urgency=medium
 
   * d/control: 

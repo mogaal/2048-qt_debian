@@ -1,0 +1,21 @@
+Description: Adapt desktop file to debian policy
+Author: Alejandro Garrido Mota <alejandro@debian.org>
+Origin: vendor
+
+Fix desktop file adding Keyword tag and remove the execution interpreter 
+
+Index: 2048-qt/res/2048-qt.desktop
+===================================================================
+--- 2048-qt.orig/res/2048-qt.desktop
++++ 2048-qt/res/2048-qt.desktop
+@@ -1,4 +1,3 @@
+-#!/usr/bin/env xdg-open
+ [Desktop Entry]
+ Name=2048-Qt
+ GenericName=2048-Qt
+@@ -8,4 +7,5 @@ Exec=2048-qt
+ Icon=2048-qt
+ Terminal=false
+ Type=Application
++Keywords=game;puzzle;sliding-puzzle;2048
+ Categories=Game;Math;Qt;
