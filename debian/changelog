@@ -3,6 +3,7 @@
   * Use secure URI in Vcs control header.
   * Use secure copyright file specification URI.
   * Trim trailing whitespace.
+  * Trim trailing whitespace.
 
  -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 19 Sep 2018 01:53:45 +0100
 
