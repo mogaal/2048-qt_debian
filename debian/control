@@ -2,21 +2,21 @@ Source: 2048-qt
 Section: games
 Priority: optional
 Maintainer: Alejandro Garrido Mota <alejandro@debian.org>
-Build-Depends: debhelper (>= 9), 
+Build-Depends: debhelper (>= 9),
                qtbase5-dev,
                qtdeclarative5-dev
 Standards-Version: 3.9.6
 Homepage: https://github.com/xiaoyong/2048-Qt
-Vcs-Git: git://github.com/mogaal/2048-qt.git
+Vcs-Git: https://github.com/mogaal/2048-qt.git
 Vcs-Browser: https://github.com/mogaal/2048-qt
 
 Package: 2048-qt
 Architecture: any
-Depends: ${shlibs:Depends}, 
+Depends: ${shlibs:Depends},
          ${misc:Depends},
          qml-module-qtquick-controls,
          qml-module-qtquick-dialogs
-Description: mathematics based puzzle game 
+Description: mathematics based puzzle game
  2048 puzzle is mathematics based puzzle game where you have to slide
  tiles on a grid to combine them and create a tile with the number 2048.
  You have to merge the similar number tiles (2n) by moving the arrow keys
